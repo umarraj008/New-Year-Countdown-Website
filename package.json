@@ -1,0 +1,24 @@
+{
+  "name": "new-year-countdown-website",
+  "version": "1.0.0",
+  "description": "A website that counts down to the new year and plays a song when it hits midnight!",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main",
+    "start": "node main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umarraj008/New-Year-Countdown-Website.git"
+  },
+  "author": "Umar Rajput",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/umarraj008/New-Year-Countdown-Website/issues"
+  },
+  "homepage": "https://github.com/umarraj008/New-Year-Countdown-Website#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ip": "^1.1.8"
+  }
+}

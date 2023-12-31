@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>New Years Countdown</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./main.css">
+        <script type="text/javascript" src="./main.js"></script>
+    </head>
+    <body>
+        <div id="mainContainer">
+            <div id="innerContainer">    
+                <h1 id="countdown">00:00:00</h1>
+            </div>
+        </div>
+        <div id="interactButton" onclick="document.getElementById('interactButton').parentNode.removeChild(document.getElementById('interactButton'))">CLICK ME TO INTERACT</div>
+        <audio muted autoplay src="./music.wav" id="music"></audio>
+    </body>
+</html>
